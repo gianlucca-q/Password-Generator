@@ -1,0 +1,66 @@
+/* body {
+    background-color: black;
+    color: white;
+} */
+
+#contGeneral {
+  margin: auto;
+  margin-top: 5vh;
+  text-align: center;
+  max-width: 80%;
+}
+
+#title {
+  margin: auto;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#author {
+  margin: auto;
+  font-size: 1em;
+  font-style: italic;
+  color: gray;
+  margin-bottom: 5vh;
+}
+
+#contUserArea .row {
+  margin: auto;
+}
+
+#contUserArea {
+  margin: 2vh auto;
+}
+
+#userNumber {
+  margin: auto;
+  margin-top: 1vh;
+  max-width: 50%;
+}
+
+#contBtnArea {
+  margin: auto;
+  margin-bottom: 5vh;
+}
+
+#btnGenerate {
+  background-color: rgba(27, 129, 42, 0.52);
+  border: none;
+}
+
+#infoArea {
+  border: solid 1px rgba(58, 58, 58, 0.356);
+  margin-bottom: 1vh;
+}
+
+#info {
+  font-size: 1.3em;
+  margin: auto;
+}
+
+#password {
+  color: rgba(107, 28, 244, 0.887);
+  font-size: 1.2em;
+  margin: auto;
+}

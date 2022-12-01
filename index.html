@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <div id="contGeneral">
+
+
+
+      <h1 id="title">Password Generator</h1>
+      <p id="author">by @quinteros_g</p>
+
+
+      <div id="contUserArea" class="cont">
+        <div class="row">
+          <input type="text" name="userWordOne" id="userWordOne" placeholder="Input first word" class="col form-control">
+          <input type="text" name="userWordOne" id="userWordTwo" placeholder="Input second word" class="col offset-2 form-control">
+        </div>
+        <div class="row">
+          <input type="number" min="0" name="userNumber" id="userNumber" placeholder="Input a number" class="col form-control">
+        </div>
+      </div>
+
+      <div id="contBtnArea">
+        <button id="btnGenerate" onclick="generatePassword(userWordOne, userWordTwo, userNumber)" class="btn btn-primary">Click</button>
+      </div>
+
+      <div id="infoArea">
+        <p id="info">Your brand new password:</p>
+        <input readonly id="password" value=""></input>
+      </div>
+
+      <div id="contBtnArea">
+        <button id="btnCopy" onclick="copyPassword()" class="btn btn-secondary">Copy</button>
+      </div>
+
+
+
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
